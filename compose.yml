@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   sv-trivia:
-    image: vicbrown2/sv-trivia:latest
+    image: vicbrown2/SV-Trivia:latest
     ports:
       - "80:80"
       - "443:443"
