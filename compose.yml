@@ -9,5 +9,5 @@ services:
     volumes:
       - ./config:/app/config # Path to your game config
     environment:
-      - WEB_ORIGIN=http://trivia.stevenvince.com:80
-      - SOCKET_URL=http://trivia.stevenvince.com:443
+      - WEB_ORIGIN=http://trivia.stevenvince.com
+      - SOCKET_URL=http://trivia.stevenvince.com
